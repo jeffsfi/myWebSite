@@ -9,17 +9,24 @@ h1 {
   margin: 50px auto 0 auto;
   font-size: 5.625rem;
   font-family: 'Sacramento', cursive;
+  color: #66BFBF;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
 }
 
 h3 {
+  color: #11999E;
   font-family: 'Montserrat', sans-serif;
 }
 
+a {
+  color: #11999E;
+}
 
 /*************** class selectors *****************/
 .top-container {
@@ -29,7 +36,7 @@ h3 {
 }
 
 .middle-container {
-
+  margin-top: 50px;
 }
 
 .bottom-container {
@@ -51,4 +58,10 @@ h3 {
 
 .pro {
   text-decoration: underline;
+}
+
+.rndimg {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
 }
