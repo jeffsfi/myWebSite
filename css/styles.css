@@ -60,8 +60,25 @@ a {
   text-decoration: underline;
 }
 
-.rndimg {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
+.colors-img {
+  width: 25%; 
+}
+
+.record-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.pcb-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
 }
