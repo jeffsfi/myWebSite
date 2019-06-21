@@ -1,4 +1,9 @@
 /*************** html selectors *****************/
+
+a {
+  color: #11999E;
+}
+
 body {
   text-align: center;
   margin: 0;
@@ -24,13 +29,21 @@ h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
-a {
-  color: #11999E;
+hr {
+  width: 5%;
+  border-style: dotted none none none;
+  border-width: 8px;
+  border-color: #EAF6F6;
+}
+
+p {
+  color: #40514E;
+  margin-bottom: 100px;
 }
 
 /*************** class selectors *****************/
 .top-container {
-  background-color: #e4f9f5;
+  background-color: #EAF6F6;
   padding-top: 100px;
   position: relative;
 }
@@ -40,7 +53,8 @@ a {
 }
 
 .bottom-container {
-
+  margin: 100px 0 200px 0;
+  background-color: #66BFBF;
 }
 
 .top-cloud {
@@ -61,7 +75,7 @@ a {
 }
 
 .colors-img {
-  width: 25%; 
+  width: 25%;
 }
 
 .record-img {
@@ -76,9 +90,32 @@ a {
   margin-left: 30px;
 }
 
+.profile {
+  width: 30%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+}
+
 .skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
   line-height: 2;
+}
+
+.butn {
+  background: #00f3f7;
+  background-image: linear-gradient(to bottom, #00f3f7, #04a8d1);
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #3cb0fd;
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
 }
