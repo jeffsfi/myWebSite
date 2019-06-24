@@ -38,7 +38,7 @@ hr {
 
 p {
   color: #40514E;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 /*************** class selectors *****************/
@@ -53,9 +53,9 @@ p {
 }
 
 .bottom-container {
-  margin: 100px 0 0 0;
-  padding-top: 75px;
-  padding-bottom: 75px;
+  margin: 50px 0 0 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #66BFBF;
 }
 
@@ -77,7 +77,7 @@ p {
 }
 
 .colors-img {
-  width: 25%;
+  width: 35%;
 }
 
 .record-img {
@@ -87,20 +87,20 @@ p {
 }
 
 .pcb-img {
-  width: 25%;
+  width: 30%;
   float: right;
   margin-left: 30px;
 }
 
 .profile {
   width: 30%;
-  margin: 100px auto 100px auto;
+  margin: 50px auto 50px auto;
   line-height: 2;
 }
 
 .skill-row {
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 50px auto 100px auto;
   text-align: left;
   line-height: 2;
 }
@@ -127,5 +127,4 @@ p {
 }
 
 .footer-link {
-  padding: 25px;
 }
