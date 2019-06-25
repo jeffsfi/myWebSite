@@ -2,12 +2,20 @@
 
 a {
   color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
 }
 
 body {
   text-align: center;
   margin: 0;
   font-family: 'Merriweather', serif;
+  color: #40514E;
 }
 
 h1 {
@@ -37,8 +45,8 @@ hr {
 }
 
 p {
-  color: #40514E;
   margin-bottom: 50px;
+  line-height: 2;
 }
 
 /*************** class selectors *****************/
@@ -62,12 +70,12 @@ p {
 .top-cloud {
   position:absolute;
   right: 300px;
-  top: 50px;
+  top: 40px;
   }
 
 .bottom-cloud {
   position:absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 
 }
@@ -107,9 +115,9 @@ p {
 
 .butn {
   background: #00f3f7;
-  background-image: linear-gradient(to bottom, #00f3f7, #04a8d1);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
   border-radius: 8px;
-  font-family: Arial;
+  font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   font-size: 18px;
   padding: 10px 20px 10px 20px;
@@ -118,13 +126,18 @@ p {
 
 .butn:hover {
   background: #3cb0fd;
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
 
 .p-footer {
-  margin-bottom: auto;
+  margin: 2em auto auto;
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
 
-.footer-link {
+.contact-me {
+  width: 40%;
+  margin: 50px auto 50px;
 }
